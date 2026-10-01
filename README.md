@@ -13,7 +13,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 
 ## Overview
@@ -32,7 +31,7 @@ Users should be able to:
 
 ### Link
 
-- Live Site URL: (https://riya-shakya.github.io/social-links-profile/)
+- Live Site URL : https://riya-shakya.github.io/social-links-profile/
 
 ## My process
 
