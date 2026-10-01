@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+}
+
+.social-card {
+  background-color: hsl(0, 0%, 12%);
+  margin: auto;
+  width: min(90%, 24rem);
+  padding: 2.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+p,
+li {
+  font-size: 0.875rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.about img {
+  width: 5.5rem;
+  border-radius: 50%;
+  margin-bottom: 0.8rem;
+}
+
+.about p {
+  color: hsl(75, 94%, 57%);
+  font-weight: 700;
+}
+
+.social-card > .description {
+  margin-top: 0.5rem;
+}
+
+ul {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: hsl(0, 0%, 20%);
+  text-align: center;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: block;
+}
+
+a:hover,
+a:focus-visible {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 768px) {
+  .social-card {
+    padding: 1.5rem;
+  }
+}
